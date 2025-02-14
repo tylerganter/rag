@@ -25,8 +25,11 @@ Tinkering around with RAG
         ollama pull nomic-embed-text
         ollama pull bge-m3
         ```
-2. [Self-host LangFuse with docker compose](https://langfuse.com/self-hosting/local)
-    - visit dashboard at http://localhost:3000/
+2. [Launch LangFuse](langfuse/README.md)
+3. Create an org and project in the LangFuse dashboard. Create an API key and set the secret key in your environment:
+    ```bash
+    export LANGFUSE_SECRET_KEY='sk-...`
+    ```
 3. create a python virtualenv, then:
     ```bash
     # install requirements
