@@ -1,0 +1,9 @@
+# dev
+black
+jupyterlab
+ipdb
+
+# RAG
+langfuse
+llama-index
+ollama
