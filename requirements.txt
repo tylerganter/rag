@@ -1,9 +1,6 @@
-# dev
-black
-jupyterlab
 ipdb
-
-# RAG
+jupyterlab
 langfuse
 llama-index
 ollama
+pre-commit
