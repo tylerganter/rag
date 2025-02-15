@@ -5,7 +5,7 @@ Tinkering around with RAG
 ## Setup
 
 1. Model hosting: [install ollama](https://ollama.com/)
-    1. LLM: choose one:
+    1. LLM: choose one or more:
         ```bash
         ollama pull llama3.2:1b
         ollama pull deepseek-r1:1.5b
@@ -19,7 +19,7 @@ Tinkering around with RAG
         ollama pull deepseek-r1:14b
         ollama pull llama3.3:70b
         ```
-    2. Embeddings: choose one
+    2. Embeddings: choose one or more:
         ```bash
         ollama pull all-minilm
         ollama pull nomic-embed-text

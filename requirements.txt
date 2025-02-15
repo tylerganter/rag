@@ -6,3 +6,5 @@ llama-index-embeddings-ollama
 llama-index-llms-ollama
 # ollama
 pre-commit
+pydantic-settings
+rich
